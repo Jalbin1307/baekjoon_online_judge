@@ -5,5 +5,4 @@ count = 0
 for coin in coins:
     count += rest // coin
     rest = rest % coin
-
 print(count)
